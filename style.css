@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(255, 228, 205);
+}
+
+h1 {
+    color: brown;
+}
+
+.first {
+    padding-top: 20px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 700px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.second {
+
+
+    background-color: rgb(241, 154, 72);
+    width: 250px;
+    height: 150px;
+
+
+}
+
+.name {
+
+    margin-top: 8px;
+    display: inline;
+    float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    height: 80px;
+    width: 140px;
+
+}
+
+span {
+    font-size: 28px;
+}
+
+
+.ssecond {
+
+    display: flex;
+
+    float: left;
+
+    background-image: url('img/raghav1.jpg');
+    background-repeat: no-repeat;
+    background-position: center -15px;
+
+    width: 100px;
+    height: 100px;
+    margin-top: -83px;
+
+    margin-left: 190px;
+    border-radius: 60px;
+}
+
+.parameters {
+    display: flex;
+    padding-top: 10px;
+    float: left;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    color: black;
+    background-color: rgb(241, 154, 72);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.parameters2 {
+    padding-top: 2px;
+    padding-left: 4px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 150px;
+    height: 20px;
+    color: white;
+    background-color: rgb(16, 15, 15);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 4px solid rgb(241, 154, 72);
+
+}
+
+.box {
+    display: inline-block;
+    width: 144px;
+    height: 10px;
+    /* background-color: blueviolet; */
+}
+
+.text {
+    display: flex;
+    float: left;
+    margin-top: 8px;
+    margin-left: 17px;
+    background-color: rgb(244 160 160);
+    height: 188px;
+    width: 220px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.text2 {
+    /* display: flex; */
+    float: left;
+    margin-top: 8px;
+    margin-left: 75px;
+    background-color: rgb(244 160 160);
+    height: 188px;
+    width: 226px;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+li::before {
+    color: rgb(241, 154, 72);
+    content: "\2022";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
